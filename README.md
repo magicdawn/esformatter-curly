@@ -1,5 +1,5 @@
 # esformatter-curly
-> 
+> keep original curly fot import & one line object literal
 
 [![Build Status](https://img.shields.io/travis/magicdawn/esformatter-curly.svg?style=flat-square)](https://travis-ci.org/magicdawn/esformatter-curly)
 [![Coverage Status](https://img.shields.io/coveralls/magicdawn/esformatter-curly.svg?style=flat-square)](https://coveralls.io/github/magicdawn/esformatter-curly?branch=master)
@@ -9,12 +9,27 @@
 
 ## Install
 ```
-npm i esformatter-curly --save
+npm i esformatter --save-dev
+npm i esformatter-curly --save-dev
 ```
 
-## API
+## Usage
+
+1. keep multiline import
+```js
+import {
+  x,
+  y
+} from 'utils';
 ```
-const esformatterCurly = require('esformatter-curly');
+
+2. keep short object literal inline
+```js
+var o1 = { x: 1, y: 2 };
+var o2 = {
+  x: 2,
+  y: 3
+};
 ```
 
 ## Changelog
