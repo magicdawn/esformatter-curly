@@ -1,0 +1,28 @@
+{
+  "name": "esformatter-curly",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cover": "istanbul cover _mocha -- -u exports"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rocambole": "^0.7.0",
+    "rocambole-indent": "^2.0.4",
+    "rocambole-linebreak": "^1.0.1",
+    "rocambole-node": "^1.0.0",
+    "rocambole-token": "^1.2.1",
+    "rocambole-whitespace": "^1.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "esformatter": "^0.9.3",
+    "eslint": "^2.10.1",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}
