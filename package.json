@@ -18,6 +18,7 @@
     "rocambole-whitespace": "^1.0.0"
   },
   "devDependencies": {
+    "co-mocha": "^1.1.2",
     "coveralls": "^2.11.9",
     "esformatter": "^0.9.3",
     "eslint": "^2.10.1",
