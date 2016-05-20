@@ -1,7 +1,7 @@
 {
   "name": "esformatter-curly",
   "version": "0.0.1",
-  "description": "",
+  "description": "keep original curly fot import & one line object literal",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
