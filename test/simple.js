@@ -21,4 +21,11 @@ describe('It works', function() {
     const out = esformatter.format(src);
     out.should.equal(src);
   });
+
+  it('object-pattern', function*() {
+    const srcIn = fs.readFileSync(__dirname + '/fixtures/object-pattern-in.js', 'utf8');
+    const srcOut = fs.readFileSync(__dirname + '/fixtures/object-pattern-out.js', 'utf8');
+    const out = esformatter.format(srcIn);
+    out.should.equal(srcOut);
+  });
 });
