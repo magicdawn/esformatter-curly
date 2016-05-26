@@ -6,10 +6,6 @@ var {
 } = a;
 
 var {
-    x
-} = a;
-
-var {
   x,
   y: {z}
 } = a;
