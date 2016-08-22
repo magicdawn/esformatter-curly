@@ -1,0 +1,16 @@
+{
+  "name": "issue2",
+  "version": "0.0.1",
+  "private": true,
+  "esformatter": {
+    "indent": {
+      "value": "\t"
+    },
+    "plugins": [
+      "esformatter-curly"
+    ]
+  },
+  "dependencies": {
+    "esformatter": "^0.9.6"
+  }
+}
