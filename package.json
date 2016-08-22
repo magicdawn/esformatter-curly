@@ -1,6 +1,6 @@
 {
   "name": "esformatter-curly",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "keep original curly fot import & one line object literal",
   "main": "lib/index.js",
   "dependencies": {
