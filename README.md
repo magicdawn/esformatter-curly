@@ -14,6 +14,7 @@ npm i esformatter-curly --save-dev
 ```
 
 ## Usage
+for detail see [notes](notes/)
 
 1. keep multiline import
 ```js
