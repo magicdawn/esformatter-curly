@@ -1,4 +1,6 @@
 # esformatter-curly
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/esformatter-curly.svg)](https://greenkeeper.io/)
 > keep original curly fot import & one line object literal
 
 [![Build Status](https://img.shields.io/travis/magicdawn/esformatter-curly.svg?style=flat-square)](https://travis-ci.org/magicdawn/esformatter-curly)
